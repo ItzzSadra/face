@@ -1,7 +1,7 @@
 /* Container */
 .attendance-container {
-  padding: 2rem;
-  background-color: #f9fafb; /* light gray background */
+  padding: 3rem;
+  background-color: #000000; /* full black */
   min-height: 100vh;
   font-family: 'Inter', sans-serif;
 }
@@ -17,24 +17,23 @@
   font-size: 2rem;
   font-weight: 800;
   text-align: center;
-  margin-bottom: 1.5rem;
-  color: #1f2937; /* dark gray */
+  color: #ffffff; /* white */
 }
 
 /* Last updated */
 .attendance-last-updated {
   font-size: 0.875rem;
   text-align: center;
-  color: #6b7280; /* gray */
+  color: #9ca3af; /* soft gray */
   margin-bottom: 1rem;
 }
 
 /* Table container */
 .attendance-table-wrapper {
   overflow-x: auto;
-  background-color: #ffffff;
+  background-color: #0a0a0a; /* near black */
   border-radius: 0.5rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.05);
 }
 
 /* Table */
@@ -63,25 +62,27 @@
 /* Table rows */
 .attendance-table tbody tr {
   transition: background-color 0.2s ease;
+  background-color: #111111; /* dark row */
 }
 
 .attendance-table tbody tr:nth-child(even) {
-  background-color: #f9fafb; /* zebra striping */
+  background-color: #1a1a1a; /* slightly lighter */
 }
 
 .attendance-table tbody tr:hover {
-  background-color: #e0e7ff; /* light indigo */
+  background-color: #2a2a4a; /* dark indigo hover */
 }
 
 /* Table cells */
 .attendance-table td {
   padding: 0.75rem 1.5rem;
+  color: #e5e7eb; /* soft white */
 }
 
 /* Empty state */
 .attendance-empty {
   text-align: center;
   padding: 2rem;
-  color: #9ca3af; /* gray */
+  color: #6b7280; /* gray */
   font-style: italic;
 }

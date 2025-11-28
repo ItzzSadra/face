@@ -6,7 +6,7 @@ function App() {
     <div className="min-h-screen bg-gray-100">
       <AttendancePanel />
     </div>
-  );
+    );
 }
 
 export default App;
